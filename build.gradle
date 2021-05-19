@@ -14,7 +14,7 @@ publishing {
     publications {
         maven(MavenPublication) {
             groupId = "$group"
-            artifactId = 'Autocomplete'
+            artifactId = 'autocomplete'
             version = "$version"
 
             from components.java
